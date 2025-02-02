@@ -35,7 +35,7 @@ def init_mt5():
 @app.route('/login_mt5', methods=['POST'])
 def login_mt5():
     # Login to MT5 account
-    account_number = ***  # Replace with your account number
+    account_number = "***"  # Replace with your account number
     password = "***"  # Replace with your password
     server = "VantageInternational-Demo"  # Replace with your broker server
 
@@ -95,7 +95,7 @@ def execute_trade():
         return jsonify({"error": "MT5 initialization failed"}), 500
 
     # Login to MT5 account
-    account_number = ***  # Replace with your account number
+    account_number = "***" # Replace with your account number
     password = "your_password"  # Replace with your password
     server = "your_broker_server"  # Replace with your broker server
 
